@@ -25,6 +25,7 @@ if [ $? -ne 0 ]; then
     echo "Failed to install Kyverno." | tee -a $LOGFILE
     exit 1
 fi
+
 # Wait for Kyverno to be ready
 echo "Waiting for Kyverno pods to be ready..." | tee -a $LOGFILE
 READY=0
