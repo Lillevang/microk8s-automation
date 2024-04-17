@@ -7,14 +7,14 @@ This project automates the setup of MicroK8s on an Ubuntu VM, including the inst
 ```bash
 microk8s-automation/
 │
-├── scripts/ # Directory for scripts
+├── scripts/                    # Directory for scripts
 │ ├── setup_environment.sh 		# Prepares the Ubuntu environment
 │ ├── install_microk8s.sh 		# Installs MicroK8s and enables basic services
 │ └── setup_kyverno.sh 			# Installs Kyverno and applies initial policies
 │
-├── Makefile 				# Orchestrates the setup and cleanup processes
+├── Makefile 				    # Orchestrates the setup and cleanup processes
 │
-└── README.md 				# Documentation for the project
+└── README.md 				    # Documentation for the project
 ```
 
 ## Prerequisites
@@ -48,7 +48,7 @@ make setup-kyverno
 
 ## Scripts Explained
 
-- **setup_environment.sh**: Updates the system and installs necessary packages like `snapd` and `make`.
+- **setup_environment.sh**: Updates the system and installs necessary packages like `snapd`.
 - **install_microk8s.sh**: Installs MicroK8s, enables services like DNS and dashboard, and sets up `kubectl` alias.
 - **setup_kyverno.sh**: Adds the Kyverno Helm chart repository, installs Kyverno into the `kyverno` namespace, and applies a basic policy in audit mode.
 
