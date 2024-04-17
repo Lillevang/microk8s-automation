@@ -1,20 +1,21 @@
 # MicroK8s Automation Project
 
 This project automates the setup of MicroK8s on an Ubuntu VM, including the installation of MicroK8s via Snap, configuration of essential Kubernetes services, and deployment of Kyverno policies in audit mode using Helm.
+The aim is to have an automated setup for demo or PoC purposes.
 
 ## Project Structure
 
 ```bash
 microk8s-automation/
 │
-├── scripts/                        # Directory for scripts
+├── scripts/                            # Directory for scripts
 │ ├── setup_environment.sh 		# Prepares the Ubuntu environment
 │ ├── install_microk8s.sh 		# Installs MicroK8s and enables basic services
 │ └── setup_kyverno.sh 			# Installs Kyverno and applies initial policies
 │
-├── Makefile            # Orchestrates the setup and cleanup processes
+├── Makefile                        # Orchestrates the setup and cleanup processes
 │
-└── README.md 			# Documentation for the project
+└── README.md 			        # Documentation for the project
 ```
 
 ## Prerequisites
@@ -22,7 +23,7 @@ microk8s-automation/
 Before running this project, ensure the following prerequisites are met:
 
 - Ubuntu 20.04 or later
-- `make` installed (the scripts will handle this as well)
+- `make` installed
 - Root or sudo privileges are required for running the scripts
 
 ## Getting Started
