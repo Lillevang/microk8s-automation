@@ -1,0 +1,38 @@
+# General
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+*.retry
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Operating system generated files
+Thumbs.db
+ehthumbs.db
+
+# Python environments
+venv/
+*.pyc
+__pycache__/
+
+# Node.js
+node_modules/
+
+# Helm values files that may contain sensitive data
+values.yaml
+secrets.yaml
+
+# Terraform (if used later for infrastructure management)
+*.tfstate
+*.tfstate.*
+tfplan
+.terraform/
+
+# Logs and data
+data/
+*.out
