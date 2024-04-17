@@ -4,6 +4,7 @@ This project automates the setup of MicroK8s on an Ubuntu VM, including the inst
 
 ## Project Structure
 
+```bash
 microk8s-automation/
 │
 ├── scripts/ # Directory for scripts
@@ -14,7 +15,7 @@ microk8s-automation/
 ├── Makefile 				# Orchestrates the setup and cleanup processes
 │
 └── README.md 				# Documentation for the project
-
+```
 
 ## Prerequisites
 
