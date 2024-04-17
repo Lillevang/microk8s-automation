@@ -13,7 +13,7 @@ microk8s-automation/
 │ ├── install_microk8s.sh 		# Installs MicroK8s and enables basic services
 │ └── setup_kyverno.sh 			# Installs Kyverno and applies initial policies
 │
-├── Makefile                        # Orchestrates the setup and cleanup processes
+├── Makefile                            # Orchestrates the setup and cleanup processes
 │
 └── README.md 			        # Documentation for the project
 ```
