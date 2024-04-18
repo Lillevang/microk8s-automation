@@ -16,7 +16,5 @@ setup-kyverno:
 
 clean:
 	@echo "Cleaning up MicroK8s..."
-	@sudo microk8s.stop
-	@sudo microk8s.reset
 	@sudo snap remove microk8s
 	@echo "MicroK8s and components have been removed."
